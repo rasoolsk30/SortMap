@@ -3,43 +3,7 @@
   <groupId>com.java</groupId>
   <artifactId>SortMap</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <project>  
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.1.5</version>
-            <configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
-  </project>
-  <project ...>
-	...
-	<build>
-		...
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-					<fork>true</fork>
-					<executable>C:\Program Files\Java\jdk1.7.0_79\bin\javac</executable>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-	...
-</project
->
-
-<dependencies>
+ <dependencies>
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
     <groupId>junit</groupId>
@@ -49,4 +13,17 @@
 </dependency>
 
   </dependencies>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.5.1</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
